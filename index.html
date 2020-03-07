@@ -143,5 +143,29 @@
 </head>
 <body>
 	<div id="root">root</div>
+	<script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+	<script>
+		import React from 'react';
+		import ReactDOM from 'react-dom';
+		// import react-dom from 'react-dom';
+
+		class Hello extends React.Component() {
+			constructor(props) {
+				super(props);
+			}
+			render() {
+				return(
+					<h1>
+						Hello!
+					</h1>
+				)
+			}
+		}
+
+		ReactDom.render(<Hello/>, document.getElementById('root'));
+
+
+	</script>
 </body>
 </html>
