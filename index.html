@@ -146,15 +146,15 @@
 	<script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
 	<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
 	<script>
-		import React from 'react';
+		import React, { Component } from 'react';
 		import ReactDOM from 'react-dom';
-		// import react-dom from 'react-dom';
 
-		class Hello extends React.Component() {
+		class Hello extends Component() {
 			constructor(props) {
 				super(props);
 			}
 			render() {
+				console.log('component will mount');
 				return(
 					<h1>
 						Hello!
