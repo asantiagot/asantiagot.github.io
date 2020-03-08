@@ -2,7 +2,7 @@
   "name": "asantiagot.github.io",
   "version": "1.0.0",
   "description": "portfolio page",
-  "main": "index.js",
+  "homepage": "http://asantiagot.github.io/asantiagot.github.io",
   "dependencies": {
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
@@ -33,7 +33,6 @@
   "bugs": {
     "url": "https://github.com/asantiagot/asantiagot.github.io/issues"
   },
-  "homepage": "https://asantiagot.github.io/asantiagot.github.io",
   "browserslist": {
     "production": [
       ">0.2%",
