@@ -2,7 +2,7 @@
   "name": "asantiagot.github.io",
   "version": "1.0.0",
   "description": "portfolio page",
-  "homepage": "http://asantiagot.github.io/",
+  "homepage": "http://asantiagot.github.io/Portfolio",
   "dependencies": {
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
