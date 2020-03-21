@@ -28,13 +28,14 @@ body {
 /* || TYPOGRAPHY */
 h1 {
     font-size: 5em;
-    font-family: 'Montserrat';
+    font-family: 'Helvetica';
     margin: 0 auto;
 }
 
 h2 {
     font-size: 3em;
-    font-family: 'Raleway';
+    font-family: 'Helvetica';
+    font-weight: lighter;
     margin: 0 auto;
 }
 

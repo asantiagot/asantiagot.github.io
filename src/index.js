@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Portfolio from "./MyInfo";
+import App from "./App";
+import "./style.css";
+
 
 // function Header() {
 //   return (
@@ -11,6 +13,6 @@ import Portfolio from "./MyInfo";
 // }
 
 ReactDOM.render(
-  <Portfolio />,
+  <App />,
   document.getElementById("root")
 )

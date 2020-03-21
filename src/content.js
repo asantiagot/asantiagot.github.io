@@ -1,5 +1,3 @@
-'use strict'
-
 let content = {
     contact: {
         name: "Antonio Santiago",
